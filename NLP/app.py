@@ -9,6 +9,8 @@ from nltk.stem import PorterStemmer
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
 
+import nltk
+nltk.download('stopwords')
 # ---------- PAGE CONFIG ----------
 st.set_page_config(page_title="Spam Detector", layout="centered")
 
